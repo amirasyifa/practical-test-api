@@ -25,3 +25,8 @@ Route::post('/client/delete','ClientController@delete');
 
 Route::get('transactions', 'TransactionController@show');
 Route::post('transactions/create','TransactionController@store');
+
+Route::get('admins', 'AdminController@index');
+Route::post('admins/create','AdminController@create');
+Route::post('/admin/update','AdminController@update');
+Route::post('/admin/delete','AdminController@delete');

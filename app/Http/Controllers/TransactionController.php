@@ -16,6 +16,9 @@ class TransactionController extends Controller
 
     public function store(Request $request)
     {
+        $request->validate([
+            'client_id' => ['required'],
+        ]);
         Transaction::create([
             'client_id' => $request->client_id,
             'admin_id' => $request->admin_id,

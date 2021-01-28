@@ -15,14 +15,14 @@ class AdminSeeder extends Seeder
     {
         $data = [
             [
-                'name'  => 'Amira',
-                'address'   => 'Cilebut',
+                'name'  => 'Elpina',
+                'address'   => 'Bapeun',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],    
             [
-                'name'  => 'Syifa',
-                'address'   => 'Ciheuleut',
+                'name'  => 'Ong',
+                'address'   => 'Korea',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
